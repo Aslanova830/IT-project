@@ -6,13 +6,13 @@ const Navbar = () => {
       <Link to="/" className="text-white text-3xl font-bold">MyHome</Link>
 
       <nav className="flex">
-        <Link to="#home" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">home</Link>
+        <Link to="/home" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">home</Link>
 
-        <Link to="#about" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">about</Link>
+        <Link to="/about" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">about</Link>
 
-        <Link to="#services" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">services</Link>
+        <Link to="/house" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">services</Link>
 
-        <Link to="#contact" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">contact</Link>
+        <Link to="/contact" className="text-white text-lg font-medium ml-10 border-b-2 border-transparent hover:border-white transition-all">contact</Link>
       </nav>
     </header>
   );
