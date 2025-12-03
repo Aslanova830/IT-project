@@ -12,7 +12,7 @@ import SignIn from './auth/signin'
 
 const App = () => {
   return (
-    <div>
+    <div className='bg-blue-300'>
 
 
 
