@@ -1,4 +1,4 @@
-const Home = [
+const Homedetails = [
   
     {
     id: 1,
@@ -81,3 +81,4 @@ const Home = [
   }
 
 ];
+export default Homedetails;
