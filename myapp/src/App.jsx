@@ -3,10 +3,10 @@ import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
 import Home from './Pages/Home/home'
-import About from './Pages/About/About'
-import Contact from './Pages/Contact/Contact'
+import About from './Pages/About/about'
+import Contact from './Pages/Contact/contact'
 import House from './Pages/Houses/house'
-import HouseDetails from './Pages/Houses/HouseDetails'
+import HouseDetails from './Pages/Houses/housedetails'
 import SignUp from './auth/signup'
 import SignIn from './auth/signin'
 

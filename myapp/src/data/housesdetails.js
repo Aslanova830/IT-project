@@ -5,7 +5,7 @@ const Homedetails = [
     name: "Cozy Apartment",
     price: 550,
     description: 'lorem ipsum som dolor bla bla bla',
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fstaythassos.gr%2Fb-cozy-apartments%2F&psig=AOvVaw3A9fWkZW10__YU1c3BV-NY&ust=1764867820684000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCNDvs63zoZEDFQAAAAAdAAAAABAE"
+    image: "https://images.unsplash.com/photo-1600585154340-be6161a56a0c "
   },
 
   {
@@ -13,7 +13,7 @@ const Homedetails = [
     name: "Luxury Villa",
     price: 2000,
     description: "lorem ipsum som dolor bla bla bla",
-    image: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbargainandalucia.com%2Ftop-modern-luxury-villa-marbella-southern-spain%2F&psig=AOvVaw3m3tdFd-ssgix5t0bWZQ8o&ust=1764867904043000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIi8sbbzoZEDFQAAAAAdAAAAABAE"
+    image: "https://images.unsplash.com/photo-1554995207-c18c203602cb"
   },
 
   {

@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 
 import Homedetails from '../../data/housesdetails';
 const ProductCards = () => {
@@ -20,7 +21,7 @@ const ProductCards = () => {
           Buy Now
         </button>
         <button className="mt-4 px-8 py-3 border border-[#007bff] rounded-[40px] font-bold cursor-pointer transition duration-300 bg-transparent">
-          Learn More
+          <Link to='/housedetails' state={house} >Learn More</Link>
         </button>
         </div>
       </div>
