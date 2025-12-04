@@ -15,10 +15,14 @@ const ProductCards = () => {
         <p className='text-sm text-gray-700 mb-4'>
           {house.description}
         </p>
-
-        <button className="mt-4 px-8 py-3 border border-[#007bff] rounded-[40px] font-bold cursor-pointer transition duration-300 bg-transparent">
+        <div className='gap-5 flex'> 
+        <button className="mt-4 px-8 py-3 border border-[#007bff] rounded-[40px] font-bold cursor-pointer transition duration-300 bg-transparent ">
           Buy Now
         </button>
+        <button className="mt-4 px-8 py-3 border border-[#007bff] rounded-[40px] font-bold cursor-pointer transition duration-300 bg-transparent">
+          Learn More
+        </button>
+        </div>
       </div>
     </div>
     ))}
