@@ -1,4 +1,4 @@
-import {Routes, Route} from 'react-router-dom' 
+import {Routes, Route, useLocation} from 'react-router-dom' 
 import Navbar from './Components/Navbar'
 import Footer from './Components/Footer'
 
@@ -8,25 +8,30 @@ import Contact from './Pages/Contact/contact'
 import House from './Pages/Houses/house'
 import HouseDetails from './Pages/Houses/housedetails'
 import SignUp from './auth/signup'
-import SignIn from './auth/signin'
+import Login from  './auth/signin'
 
 const App = () => {
+  const location = useLocation();
+
+
+ const hideNavbar = location.pathname === "/" || location.pathname === "/login";
+ const hideFooter = location.pathname === "/" || location.pathname === "/login";
   return (
     <div>
+      
 
-      <Navbar/>
+      {!hideNavbar && <Navbar />}
 
         <Routes>
           <Route path='/contact' element = {<Contact/>}/>
           <Route path='/home' element = {<Home/>}/>
           <Route path='/about' element = {<About/>}/>
-          <Route path='/signup' element = {<SignUp/>}/>
-          <Route path='/signin' element = {<SignIn/>}/>
+          <Route path='/' element = {<SignUp/>}/>
+          <Route path='/login' element = {<Login/>}/>
           <Route path='/house' element = {<House/>}/>
           <Route path='/housedetails' element = {<HouseDetails/>}/>
         </Routes>
-
-      <Footer/>
+      {!hideFooter && <Footer/>}
     </div>
   )
 }

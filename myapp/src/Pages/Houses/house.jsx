@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 
 import Homedetails from '../../data/housesdetails';
 const ProductCards = () => {
+
   return (
     <div className="w-full min-h-screen justify-center items-center p-10 bg-sky-100 grid grid-cols-3 grid-rows-3 gap-4">
       {Homedetails.map((house) => (

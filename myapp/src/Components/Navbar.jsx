@@ -14,7 +14,7 @@ const Navbar = () => {
 
         <Link to="/contact" className="  border-b-2 border-transparent hover:border-white transition-all">contact</Link>
      
-        <Link to="/signin" className="  border-b-2 border-transparent hover:border-white transition-all">Sign In</Link>
+        <Link to="/" className="  border-b-2 border-transparent hover:border-white transition-all">Sign In</Link>
 
         <Link to="/signup" className=" border-b-2 border-transparent hover:border-white transition-all">Sign Up</Link>
       </nav>

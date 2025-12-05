@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div className='bg-sky-400 w-full flex justify-between'>
 
-      <div className="flex flex-col ml-[40px] mt-[40px] mb-[20px]">
+      <div className="flex flex-col ml-10 mt-10 mb-5">
         <Link className="text-xl text-white font-medium" to='/home'>Home</Link>
         <br />
         <Link className="text-xl text-white font-medium" to='/about'>About</Link>
