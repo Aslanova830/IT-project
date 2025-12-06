@@ -29,7 +29,7 @@ const Homedetails = [
     name: "Family House",
     price: 1200,
     description: "lorem ipsum som dolor bla bla bla",
-    image: "https://images.unsplash.com/photo-1560185127-6a8c0a5e89d7"
+    image: "https://images.unsplash.com/photo-1472224371017-08207f84aaae"
   },
 
   {
